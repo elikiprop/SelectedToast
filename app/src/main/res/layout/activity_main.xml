@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imag"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rupa's Mall Hotel!"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="50dp"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textColor="@color/purple_700"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accommodation!"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:textSize="30sp"/>
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="100dp"
+            android:text="Studio Ksh. 1500"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="-15dp"
+            android:text="Air BnB(1 bedroom) Ksh. 2500"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Air BnB(2 bedroom) Ksh. 3500"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="-5dp"/>
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Studio and Breakfast Ksh. 2000"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="0dp"/>
+        <RadioButton
+            android:id="@+id/radio5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Air BnB(1 bedroom) and Breakfast Ksh. 3000"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="-6dp"/>
+        <RadioButton
+            android:id="@+id/radio6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Air BnB(2 bedroom) and Breakfast Ksh. 4000"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="0dp"/>
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/lear"
+        android:layout_width="130dp"
+        android:layout_height="48dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="450dp"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/ubmit"
+        android:layout_width="130dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_height="48dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="450dp"
+        android:text="Submit" />
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginEnd="5dp"
+        android:text="Welcome Always To Rupa Mall Hotel Our Happy Customer!"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
